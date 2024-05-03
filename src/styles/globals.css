@@ -10,4 +10,7 @@
   .lage-text {
     font-size: clamp(3.5rem, 7vw + 1rem, 11rem);
   }
+  .nav-text {
+    font-size: clamp(0.8rem, 4vw + 0.1rem, 1.4rem);
+  }
 }
