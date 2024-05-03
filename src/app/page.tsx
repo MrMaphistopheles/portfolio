@@ -1,4 +1,5 @@
 import MyStack from "./_componenets/stack/MyStack";
+import Project from "./_componenets/project/Project";
 export default function HomePage() {
   return (
     <>
@@ -7,10 +8,11 @@ export default function HomePage() {
         id="me"
       >
         <h1 className=" outline-text lage-text font-bold ">
-          Hi, i build web application with react and next.js
+          Hi, I building web application with next.js
         </h1>
       </section>
       <MyStack />
+      <Project />
     </>
   );
 }
