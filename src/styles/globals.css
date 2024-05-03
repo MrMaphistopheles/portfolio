@@ -13,4 +13,11 @@
   .nav-text {
     font-size: clamp(0.8rem, 4vw + 0.1rem, 1.4rem);
   }
+  .glass {
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(12.6px);
+    -webkit-backdrop-filter: blur(12.6px);
+    border: 1px solid rgba(255, 255, 255, 0.41);
+  }
 }
