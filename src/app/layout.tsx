@@ -20,7 +20,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="en" className="scroll-smooth">
       <body className={`font-sans ${inter.variable}`}>
         <main className="flex min-h-screen w-full flex-col items-center justify-center bg-blue-600 px-3 text-white">
           <Nav />

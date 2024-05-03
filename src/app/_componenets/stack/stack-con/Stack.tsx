@@ -9,7 +9,7 @@ export default function Frontend({
   children: React.ReactNode;
 }) {
   return (
-    <Con heigth="12rem">
+    <Con heigth="14rem">
       <div className="flex items-center justify-center gap-3  p-3">
         {children}
       </div>
