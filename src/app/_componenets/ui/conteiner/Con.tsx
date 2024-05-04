@@ -9,7 +9,7 @@ export default function Con({
 }) {
   return (
     <div
-      className="glass flex flex-col items-start justify-between rounded-xl px-3 py-2"
+      className="glass flex flex-col items-start justify-between overflow-auto rounded-xl px-3 py-2"
       style={{
         height: heigth,
       }}
