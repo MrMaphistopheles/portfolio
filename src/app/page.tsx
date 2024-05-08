@@ -1,5 +1,6 @@
 import MyStack from "./_componenets/stack/MyStack";
 import Project from "./_componenets/project/Project";
+import Contacts from "./_componenets/Contacts/Contacts";
 export default function HomePage() {
   return (
     <>
@@ -8,11 +9,12 @@ export default function HomePage() {
         id="me"
       >
         <h1 className=" outline-text lage-text font-bold ">
-          Hi, I am building a web application with Next.js
+          Hi, I am building a web applications with Next.js
         </h1>
       </section>
       <MyStack />
       <Project />
+      <Contacts />
     </>
   );
 }

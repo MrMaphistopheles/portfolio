@@ -41,7 +41,7 @@ export default function SingleProject({
 
       <div className="row-span-6 md:col-span-3 md:row-span-8 lg:row-span-12">
         <Con>
-          <video autoPlay loop muted height="300">
+          <video autoPlay loop muted>
             <source src={url} type="video/mp4" />
           </video>
         </Con>

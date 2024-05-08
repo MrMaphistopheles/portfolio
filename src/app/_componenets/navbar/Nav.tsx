@@ -28,11 +28,13 @@ export default function Nav() {
             <a href="#project" className="px-4 text-white hover:text-gray-300">
               Projects
             </a>
-            <a href="#contact" className="px-4 text-white hover:text-gray-300">
-              Contact
+            <a href="#contacts" className="px-4 text-white hover:text-gray-300">
+              Contacts
             </a>
           </div>
-          <Button>email me</Button>
+          <Button link="mailto:basylmarchak@icloud.com" target="_blank">
+            email me
+          </Button>
         </div>
       </nav>
     );
