@@ -105,7 +105,7 @@ function SmartPhoneBar() {
             Projects
           </a>
           <a
-            href="#contact"
+            href="#contacts"
             className="px-4 text-white hover:text-gray-300"
             onClick={handleOpenClose}
           >
