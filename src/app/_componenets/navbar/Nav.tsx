@@ -113,7 +113,8 @@ function SmartPhoneBar() {
           </a>
 
           <a
-            href="#contact"
+            href="mailto:basylmarchak@icloud.com"
+            target="_blank"
             className="px-4 text-white hover:text-gray-300"
             onClick={handleOpenClose}
           >
