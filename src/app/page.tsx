@@ -11,6 +11,9 @@ export default function HomePage() {
         <h1 className=" outline-text lage-text font-bold ">
           Hi, I am building web applications with Next.js
         </h1>
+        <h1 className=" outline-text lage-text font-bold ">
+          Hi, I am building web applications with Next.js
+        </h1>
       </section>
       <MyStack />
       <Project />
